@@ -1,6 +1,6 @@
 var code = require('../main');
 var expect = require('chai').expect;
-describe('taxCalculator', function(){
+describe('taxCalculator', function(){ 
 	it('calculates 10% on first 10$', function(){
 		expect(code.taxCalculator(1)).to.equal(0.1);
 		expect(code.taxCalculator(10)).to.equal(1);
